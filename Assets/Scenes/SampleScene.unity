@@ -430,30 +430,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c0d2115b032d44b929b28673eed7e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::interpolateMovement
-  speed: 6
-  acceleration: 10
+  speed: 10
+  acceleration: 12
   deceleration: 5
   rb: {fileID: 1672832916}
---- !u!114 &1672832918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1672832914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1636c9b9a0840b14fb85543daaf6cf1b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  rb: {fileID: 1672832916}
-  playerTransform: {fileID: 1672832920}
-  speed: 5
---- !u!4 &1672832920 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4199456308489001956, guid: 2ac8a52d8d321814f9353f716eaa26ef, type: 3}
-  m_PrefabInstance: {fileID: 2758054831810136670}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2758054831810136670
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -510,9 +490,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5880582772830728247, guid: 2ac8a52d8d321814f9353f716eaa26ef, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1672832918}
     - targetCorrespondingSourceObject: {fileID: 5880582772830728247, guid: 2ac8a52d8d321814f9353f716eaa26ef, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1672832917}
