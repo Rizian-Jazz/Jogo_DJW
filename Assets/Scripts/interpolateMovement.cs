@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.Scripting.APIUpdating;
 
 public class interpolateMovement : MonoBehaviour
 {
@@ -11,7 +13,7 @@ public class interpolateMovement : MonoBehaviour
     private float horizontalMovement;
     private float verticalMovement;
     private Vector2 targetVelocity;
-
+    private Vector2 moveInput;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,9 +24,7 @@ public class interpolateMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontalMovement = Input.GetAxisRaw("Horizontal");
-        verticalMovement = Input.GetAxisRaw("Vertical");
-        targetVelocity = new Vector2(horizontalMovement * speed, verticalMovement * speed).normalized * speed;
+        targetVelocity = (moveInput.normalized * speed);
         
     }
 
@@ -44,5 +44,10 @@ public class interpolateMovement : MonoBehaviour
         }
 
         rb.linearVelocity = Vector2.Lerp(rb.linearVelocity, targetVelocity, rate * Time.fixedDeltaTime); 
+    }
+
+    public void OnMove(InputAction.CallbackContext context)
+    {
+        moveInput = context.ReadValue<Vector2>();
     }
 }
