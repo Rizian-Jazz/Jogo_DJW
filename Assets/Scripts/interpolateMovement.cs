@@ -9,8 +9,7 @@ public class interpolateMovement : MonoBehaviour
     public float speed = 6f, acceleration = 10f, deceleration = 5f;
     public Rigidbody2D rb;
     private float horizontalMovement, verticalMovement;
-    private Vector2 targetVelocity, moveInput;
-    public Vector2 lastInput;
+    private Vector2 targetVelocity, moveInput, lastInput;
 
     public bool canThrow = true;
 
