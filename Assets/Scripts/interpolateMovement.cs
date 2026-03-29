@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,6 +10,8 @@ public class interpolateMovement : MonoBehaviour
     public Rigidbody2D rb;
     private float horizontalMovement, verticalMovement;
     private Vector2 targetVelocity, moveInput, lastInput;
+
+    public bool canThrow = true;
 
     void Update()
     {
@@ -41,7 +44,15 @@ public class interpolateMovement : MonoBehaviour
         {
             lastInput = moveInput;  
         }
+
     }
+
+    public IEnumerator Throw()
+    {
+        canThrow = false;
+        yield return new WaitForSeconds(0.5f);
+        canThrow = true;
+        }
 
   
 }
