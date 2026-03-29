@@ -5,22 +5,11 @@ public class interpolateMovement : MonoBehaviour
 {
 
 
-    public float speed = 6f;
-    public float acceleration = 10f;
-    public float deceleration = 5f;
+    public float speed = 6f, acceleration = 10f, deceleration = 5f;
     public Rigidbody2D rb;
-    private float horizontalMovement;
-    private float verticalMovement;
-    private Vector2 targetVelocity;
-    private Vector2 moveInput;
+    private float horizontalMovement, verticalMovement;
+    private Vector2 targetVelocity, moveInput, lastInput;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         targetVelocity = (moveInput.normalized * speed);
@@ -32,7 +21,7 @@ public class interpolateMovement : MonoBehaviour
         
         float rate;
         {
-            if (targetVelocity.magnitude > 0)
+            if (targetVelocity.magnitude > 0) //magnitude é a distância do vetor até a origem, ou seja, o comprimento do vetor (riza)
             {
                 rate = acceleration;
             }
@@ -48,5 +37,11 @@ public class interpolateMovement : MonoBehaviour
     public void OnMove(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();
+        if (moveInput.magnitude > 0) 
+        {
+            lastInput = moveInput;  
+        }
     }
+
+  
 }
