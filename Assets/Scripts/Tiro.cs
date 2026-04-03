@@ -11,8 +11,9 @@ public class Tiro : MonoBehaviour
         public UnityEvent fireEvent;
         public float bulletSpeed = 10f;
         Vector2 bulletVelocity;
-        Vector2 bulletDirection;
+        Vector2 bulletDirection = Vector2.right;
         public Transform firePoint; //arma
+        Coroutine FireCoroutine;
 
         interpolateMovement movement;
 
@@ -22,20 +23,50 @@ public class Tiro : MonoBehaviour
     }
 
         public void Fire(InputAction.CallbackContext context)
+    {
+        if (context.started)
         {
-            if (context.performed && movement.canThrow)
+            FireCoroutine = StartCoroutine(FireLoop());
+        }
+        else if (context.canceled)
+        {
+            if (FireCoroutine != null)
             {
-                GameObject bullet = Instantiate(bulletPrefab,firePoint.position, firePoint.rotation);
+                StopCoroutine(FireCoroutine);
+            }
+        }
+    } 
+    
+    IEnumerator FireLoop()
+    {
+        while (true)
+        {
+            if (movement.canThrow)
+            {
+                GameObject bullet = Instantiate(
+                    bulletPrefab,
+                    firePoint.position,
+                    firePoint.rotation
+                );
+
                 Rigidbody2D bulletRb = bullet.GetComponent<Rigidbody2D>();
 
-                bulletDirection = movement.lastInput.normalized;
-                bulletVelocity =  bulletSpeed * bulletDirection;
+                bulletDirection = movement.lastInput;
+
+                if (bulletDirection == Vector2.zero)
+                {
+                    bulletDirection = Vector2.right;
+                }
+
+                bulletVelocity = bulletDirection.normalized * bulletSpeed;
                 bulletRb.linearVelocity = bulletVelocity;
+
                 fireEvent.Invoke();
 
-                StartCoroutine(movement.Throw());
+                yield return StartCoroutine(movement.Throw());
             }
 
-        } 
-    
+            yield return null;
+        }            
+    }
 }
