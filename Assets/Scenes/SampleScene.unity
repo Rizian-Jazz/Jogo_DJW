@@ -1024,7 +1024,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 0
   bulletSpeed: 10
-  rb: {fileID: 4958797789263384478, guid: e4fa472f4f8a68e4f95b9d8c68653c8f, type: 3}
   firePoint: {fileID: 463241338}
 --- !u!1001 &1682940721
 PrefabInstance:
@@ -1393,7 +1392,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -5174654939629134163, guid: 2ac8a52d8d321814f9353f716eaa26ef, type: 3}
       propertyPath: m_ActionEvents.Array.size
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: -5174654939629134163, guid: 2ac8a52d8d321814f9353f716eaa26ef, type: 3}
       propertyPath: m_ActionEvents.Array.data[19].m_ActionId
@@ -1405,7 +1404,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5174654939629134163, guid: 2ac8a52d8d321814f9353f716eaa26ef, type: 3}
       propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -5174654939629134163, guid: 2ac8a52d8d321814f9353f716eaa26ef, type: 3}
       propertyPath: m_ActionEvents.Array.data[19].m_PersistentCalls.m_Calls.Array.size
