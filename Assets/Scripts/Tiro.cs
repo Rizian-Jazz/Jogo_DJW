@@ -1,17 +1,14 @@
-
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 using System.Collections;
-
-
 public class Tiro : MonoBehaviour
 {   
         public GameObject bulletPrefab;
         public UnityEvent fireEvent;
         public float bulletSpeed = 10f;
         Vector2 bulletVelocity;
-        Vector2 bulletDirection = Vector2.right;
+        Vector2 bulletDirection;
         public Transform firePoint; //arma
         Coroutine FireCoroutine;
 
@@ -26,6 +23,7 @@ public class Tiro : MonoBehaviour
     {
         if (context.started)
         {
+            bulletDirection = context.ReadValue<Vector2>();
             FireCoroutine = StartCoroutine(FireLoop());
         }
         else if (context.canceled)
@@ -50,8 +48,6 @@ public class Tiro : MonoBehaviour
                 );
 
                 Rigidbody2D bulletRb = bullet.GetComponent<Rigidbody2D>();
-
-                bulletDirection = movement.lastInput;
 
                 if (bulletDirection == Vector2.zero)
                 {
