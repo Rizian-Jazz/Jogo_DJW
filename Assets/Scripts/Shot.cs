@@ -46,7 +46,16 @@ public class Shot : MonoBehaviour
         {
             if (canThrow)
             {
-                GameObject bullet = Instantiate(
+                float angle = 0f;
+
+                if (bulletDirection.x > 0) angle = 180f;      
+                else if (bulletDirection.x < 0) angle = 0f;  
+                else if (bulletDirection.y > 0) angle = 270f;  
+                else if (bulletDirection.y < 0) angle = 90f;    
+
+                transform.rotation = Quaternion.Euler(0f, 0f, angle);
+
+                    GameObject bullet = Instantiate(
                     bulletPrefab,
                     firePoint.position,
                     firePoint.rotation  
