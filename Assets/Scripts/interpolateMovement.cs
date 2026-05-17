@@ -4,12 +4,10 @@ using UnityEngine.InputSystem;
 
 public class interpolateMovement : MonoBehaviour
 {
-    public float speed = 6f, acceleration = 10f, deceleration = 5f, bulletInterval = 0.7f;
+    public float speed = 6f, acceleration = 10f, deceleration = 5f;
     public Rigidbody2D rb;
-    private float horizontalMovement, verticalMovement;
     private Vector2 targetVelocity, moveInput;
 
-    public bool canThrow = true;
 
     void Update()
     {
@@ -19,6 +17,12 @@ public class interpolateMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        Move();
+       
+    }
+    public void Move()
+    {
+
         
         float rate;
         {
@@ -34,19 +38,11 @@ public class interpolateMovement : MonoBehaviour
 
         rb.linearVelocity = Vector2.Lerp(rb.linearVelocity, targetVelocity, rate * Time.fixedDeltaTime); 
     }
-
-    public void OnMove(InputAction.CallbackContext context)
+     public void onMove(InputAction.CallbackContext context)
     {
-        moveInput = context.ReadValue<Vector2>();
-
+          moveInput = context.ReadValue<Vector2>();
     }
 
-    public IEnumerator Throw()
-    {
-        canThrow = false;
-        yield return new WaitForSeconds(bulletInterval);
-        canThrow = true;
-        }
 
   
 }
