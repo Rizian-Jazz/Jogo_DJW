@@ -2,22 +2,32 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public float health = 100f;
+    public int maxHealth = 5, currentHealth;
+    public HealthBar healthBar;
 
-    public void TakeDamage(float amount)
+    void Start()
     {
-        health -= amount;
-        Debug.Log("Player HP: " + health);
-        if (health <= 0)
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
+    }
+
+
+    public void TakeDamage(int amount)
+    {
+        currentHealth -= (int)amount;
+        healthBar.SetHealth(currentHealth);
+        Debug.Log("Player HP: " + currentHealth);
+        if (currentHealth <= 0)
         {
             Debug.Log("Player morreu");
             Destroy(gameObject);
         }
     }
-    public void Heal(float amount)
+    public void Heal(int amount)
     {
-        health += amount;
-        if (health > 100f) health = 100f;
-        Debug.Log("Player HP: " + health);
+        currentHealth += (int)amount;
+        healthBar.SetHealth(currentHealth);
+        if (currentHealth > maxHealth) currentHealth = maxHealth;
+        Debug.Log("Player HP: " + currentHealth);
     }
 }
