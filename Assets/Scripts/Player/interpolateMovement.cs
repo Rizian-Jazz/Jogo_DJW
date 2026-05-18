@@ -29,7 +29,7 @@ public class interpolateMovement : MonoBehaviour
         {
             float rate;
             {
-                if (playerVelocity.magnitude > 0) //magnitude é a distância do vetor até a origem, ou seja, o comprimento do vetor (riza)
+                if (playerVelocity.magnitude > 0) 
                 {
                     rate = acceleration;
                 }

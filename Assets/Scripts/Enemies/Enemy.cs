@@ -28,5 +28,9 @@ public class Enemy : MonoBehaviour
                 Debug.Log("Enemy collided with player! Player takes " + EnDamage + " damage.");
             }
         }
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
+        }
     }
 }
