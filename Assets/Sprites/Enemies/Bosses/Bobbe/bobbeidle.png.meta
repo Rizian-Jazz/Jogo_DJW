@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: eeb79bc0aeb5bb141998cd3e4663a6ed
+guid: 005e5d004dcc3fa4a93369ff535c18cd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3737897332693287829
-    second: Bar_0
+      213: 9009292920128504510
+    second: bobbeidle_0
+  - first:
+      213: -1442779097312277475
+    second: bobbeidle_1
+  - first:
+      213: 7690321998629907937
+    second: bobbeidle_2
+  - first:
+      213: 3575367604163815711
+    second: bobbeidle_3
+  - first:
+      213: 6812852045469929648
+    second: bobbeidle_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bar_0
+      name: bobbeidle_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 52
-        height: 9
+        x: 14
+        y: 12
+        width: 194
+        height: 235
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +127,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5934012e1ddafd330800000000000000
-      internalID: 3737897332693287829
+      spriteID: eb283b57d20770d70800000000000000
+      internalID: 9009292920128504510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobbeidle_1
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 12
+        width: 194
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1cc75f1e083afbe0800000000000000
+      internalID: -1442779097312277475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobbeidle_2
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 12
+        width: 194
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed25b8dc1389ba60800000000000000
+      internalID: 7690321998629907937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobbeidle_3
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 13
+        width: 194
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19af9394e14e9130800000000000000
+      internalID: 3575367604163815711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobbeidle_4
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 12
+        width: 194
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0578dd6dc1c8e50800000000000000
+      internalID: 6812852045469929648
       vertices: []
       indices: 
       edges: []
@@ -135,7 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bar_0: 3737897332693287829
+      bobbeidle_0: 9009292920128504510
+      bobbeidle_1: -1442779097312277475
+      bobbeidle_2: 7690321998629907937
+      bobbeidle_3: 3575367604163815711
+      bobbeidle_4: 6812852045469929648
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

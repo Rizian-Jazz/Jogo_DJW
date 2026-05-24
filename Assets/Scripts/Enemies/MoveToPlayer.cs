@@ -3,7 +3,7 @@ using UnityEngine;
 public class MoveToPlayer : MonoBehaviour
 {
    public Transform player;
-   public float speed = 3f;
+   public float speed = 5f;
 
     void Update()
     {

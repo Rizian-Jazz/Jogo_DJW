@@ -3,7 +3,7 @@ using System.Collections;
 
 public class MoveRandom : MonoBehaviour
 {
-    public float speed = 5f;
+    public float speed = 7f;
 
     private bool isWandering = false;
     private Vector2 movementDirection;

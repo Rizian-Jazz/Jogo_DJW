@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: c3e72b526eea85d4ea01156c8c96d7cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3441872931418406488
+    second: barradevidadeco_0
+  - first:
+      213: 8114786920785091926
+    second: barradevidadeco_1
+  - first:
+      213: 2441455111965343179
+    second: barradevidadeco_2
+  - first:
+      213: -1728411145631165340
+    second: barradevidadeco_3
+  - first:
+      213: 5415002172332677486
+    second: barradevidadeco_4
+  - first:
+      213: -4477477865293666149
+    second: barradevidadeco_5
+  - first:
+      213: -1997088409721306935
+    second: barradevidadeco_6
+  - first:
+      213: 7669317735047905405
+    second: barradevidadeco_7
+  - first:
+      213: 1450722873192139177
+    second: barradevidadeco_8
+  - first:
+      213: 1072344547111001073
+    second: barradevidadeco_9
+  - first:
+      213: -2933882087803687902
+    second: barradevidadeco_10
+  - first:
+      213: -5898581120061659406
+    second: barradevidadeco_11
+  - first:
+      213: 2569690143317220756
+    second: barradevidadeco_12
+  - first:
+      213: 5227525389403236305
+    second: barradevidadeco_13
+  - first:
+      213: -8759692136973581443
+    second: barradevidadeco_14
+  - first:
+      213: 4845352371887950349
+    second: barradevidadeco_15
+  - first:
+      213: 7190759175620401469
+    second: barradevidadeco_16
+  - first:
+      213: -5159115067051432980
+    second: barradevidadeco_17
+  - first:
+      213: 9114079057707681473
+    second: barradevidadeco_18
+  - first:
+      213: 3523861361381366189
+    second: barradevidadeco_19
+  - first:
+      213: -136336018575777558
+    second: barradevidadeco_20
+  - first:
+      213: 6795412933981993873
+    second: barradevidadeco_21
+  - first:
+      213: 2637244874358835015
+    second: barradevidadeco_22
+  - first:
+      213: -5167562173596059325
+    second: barradevidadeco_23
+  - first:
+      213: -6655179582213738269
+    second: barradevidadeco_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: barradevidadeco_0
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 149
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ef93ff13df3cf20800000000000000
+      internalID: 3441872931418406488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_1
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 150
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d9161e5b38d9070800000000000000
+      internalID: 8114786920785091926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_2
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 151
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd71cb2d7ac1e120800000000000000
+      internalID: 2441455111965343179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_3
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 157
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46414d678337308e0800000000000000
+      internalID: -1728411145631165340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_4
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 153
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e699bdb29c3f52b40800000000000000
+      internalID: 5415002172332677486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 103
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b982f7daa9dccd1c0800000000000000
+      internalID: -4477477865293666149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_6
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 103
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c003812caae844e0800000000000000
+      internalID: -1997088409721306935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_7
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 142
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d704223a8d3ee6a60800000000000000
+      internalID: 7669317735047905405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_8
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 103
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9c62454c0022410800000000000000
+      internalID: 1450722873192139177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_9
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 102
+        width: 65
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fbd06f1fabb1ee00800000000000000
+      internalID: 1072344547111001073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_10
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 98
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c649719c1c847d0800000000000000
+      internalID: -2933882087803687902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_11
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 124
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f626eb29b7042ea0800000000000000
+      internalID: -5898581120061659406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_12
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 103
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49dde3f029f59a320800000000000000
+      internalID: 2569690143317220756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_13
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 142
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d727b125a6eb8840800000000000000
+      internalID: 5227525389403236305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_14
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 125
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7348e989625f6680800000000000000
+      internalID: -8759692136973581443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_15
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 108
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a4af97f462e3340800000000000000
+      internalID: 4845352371887950349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_16
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 145
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d391c383f55bac360800000000000000
+      internalID: 7190759175620401469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_17
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 108
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3a8014e242768b0800000000000000
+      internalID: -5159115067051432980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_18
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 112
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c64e715d96bb7e70800000000000000
+      internalID: 9114079057707681473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_19
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 114
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da95cdaec3547e030800000000000000
+      internalID: 3523861361381366189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_20
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 112
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae023ba0d13ab1ef0800000000000000
+      internalID: -136336018575777558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_21
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 108
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b77105f082e4e50800000000000000
+      internalID: 6795412933981993873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_22
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 109
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747c0e19d30699420800000000000000
+      internalID: 2637244874358835015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_23
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 103
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349bf0005912948b0800000000000000
+      internalID: -5167562173596059325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barradevidadeco_24
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 98
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0b7bd3e6d04a3a0800000000000000
+      internalID: -6655179582213738269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      barradevidadeco_0: 3441872931418406488
+      barradevidadeco_1: 8114786920785091926
+      barradevidadeco_10: -2933882087803687902
+      barradevidadeco_11: -5898581120061659406
+      barradevidadeco_12: 2569690143317220756
+      barradevidadeco_13: 5227525389403236305
+      barradevidadeco_14: -8759692136973581443
+      barradevidadeco_15: 4845352371887950349
+      barradevidadeco_16: 7190759175620401469
+      barradevidadeco_17: -5159115067051432980
+      barradevidadeco_18: 9114079057707681473
+      barradevidadeco_19: 3523861361381366189
+      barradevidadeco_2: 2441455111965343179
+      barradevidadeco_20: -136336018575777558
+      barradevidadeco_21: 6795412933981993873
+      barradevidadeco_22: 2637244874358835015
+      barradevidadeco_23: -5167562173596059325
+      barradevidadeco_24: -6655179582213738269
+      barradevidadeco_3: -1728411145631165340
+      barradevidadeco_4: 5415002172332677486
+      barradevidadeco_5: -4477477865293666149
+      barradevidadeco_6: -1997088409721306935
+      barradevidadeco_7: 7669317735047905405
+      barradevidadeco_8: 1450722873192139177
+      barradevidadeco_9: 1072344547111001073
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

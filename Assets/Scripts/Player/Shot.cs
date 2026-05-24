@@ -12,7 +12,7 @@ public class Shot : MonoBehaviour
         public Transform firePoint; 
         Coroutine FireCoroutine, ThrowCoroutine;
         public bool canThrow = true;
-        
+
 
         public void Fire(InputAction.CallbackContext context)
         {
@@ -20,6 +20,7 @@ public class Shot : MonoBehaviour
 
             if (context.performed)
             {
+                if (FireCoroutine != null) return;
                 bulletDirection = context.ReadValue<Vector2>();
                 FireCoroutine = StartCoroutine(FireLoop());
             }
@@ -30,13 +31,6 @@ public class Shot : MonoBehaviour
                     StopCoroutine(FireCoroutine);
                     FireCoroutine = null;
                 }
-                if (ThrowCoroutine != null)
-                {
-                    StopCoroutine(ThrowCoroutine);
-                    ThrowCoroutine = null;
-                }
-                canThrow = true;
-               
             }
         } 
     
@@ -46,16 +40,7 @@ public class Shot : MonoBehaviour
         {
             if (canThrow)
             {
-                float angle = 0f;
-
-                if (bulletDirection.x > 0) angle = 180f;      
-                else if (bulletDirection.x < 0) angle = 0f;  
-                else if (bulletDirection.y > 0) angle = 270f;  
-                else if (bulletDirection.y < 0) angle = 90f;    
-
-                transform.rotation = Quaternion.Euler(0f, 0f, angle);
-
-                    GameObject bullet = Instantiate(
+                GameObject bullet = Instantiate(
                     bulletPrefab,
                     firePoint.position,
                     firePoint.rotation  
@@ -84,5 +69,5 @@ public class Shot : MonoBehaviour
         canThrow = false;
         yield return new WaitForSeconds(bulletInterval);
         canThrow = true;
-        }
+    }
 }

@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 0b3fa0d1f1ad5a3498ab1fa57cf6cdfd
+guid: ec7543ed316a5a74f978b702a489f4d0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4815476061570213978
-    second: star_0
+      213: 6425351684699152331
+    second: ycosta_0
+  - first:
+      213: 1204930487675246169
+    second: ycosta_1
+  - first:
+      213: 8983187097195963824
+    second: ycosta_2
+  - first:
+      213: 8692821313299892790
+    second: ycosta_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: star_0
+      name: ycosta_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 20
-        width: 500
-        height: 470
+        y: 0
+        width: 257
+        height: 255
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a582a4ae6f104d240800000000000000
-      internalID: 4815476061570213978
+      spriteID: bcf5373705f6b2950800000000000000
+      internalID: 6425351684699152331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ycosta_1
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 2
+        width: 258
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956dbe005e5c8b010800000000000000
+      internalID: 1204930487675246169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ycosta_2
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 0
+        width: 258
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5ec37e111baac70800000000000000
+      internalID: 8983187097195963824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ycosta_3
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 2
+        width: 257
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a4f2b8dea13a870800000000000000
+      internalID: 8692821313299892790
       vertices: []
       indices: 
       edges: []
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      star_0: 4815476061570213978
+      ycosta_0: 6425351684699152331
+      ycosta_1: 1204930487675246169
+      ycosta_2: 8983187097195963824
+      ycosta_3: 8692821313299892790
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
