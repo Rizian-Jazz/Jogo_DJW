@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: c42fb08718281e94aa2f8d678442f727
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3563795691619467780
+    second: bobbegirandofrente_0
+  - first:
+      213: -2199584906835783877
+    second: bobbegirandofrente_1
+  - first:
+      213: 6322572373986632718
+    second: bobbegirandofrente_2
+  - first:
+      213: -7176882781543659622
+    second: bobbegirandofrente_3
+  - first:
+      213: 2142351774826428890
+    second: bobbegirandofrente_4
+  - first:
+      213: -3817698548487695998
+    second: bobbegirandofrente_5
+  - first:
+      213: -5085760123271875560
+    second: bobbegirandofrente_6
+  - first:
+      213: 2318741098797012813
+    second: bobbegirandofrente_7
+  - first:
+      213: 4758938728878411543
+    second: bobbegirandofrente_8
+  - first:
+      213: -364670475903898370
+    second: bobbegirandofrente_9
+  - first:
+      213: 6759810300025218059
+    second: bobbegirandofrente_10
+  - first:
+      213: 5932611388559477443
+    second: bobbegirandofrente_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bobbegirandofrente_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 11
+        width: 201
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402cb0bbc45257130800000000000000
+      internalID: 3563795691619467780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobbegirandofrente_1
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 8
+        width: 180
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f0ebe5e218971e0800000000000000
+      internalID: -2199584906835783877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobbegirandofrente_2
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 5
+        width: 180
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04eb22631a4eb750800000000000000
+      internalID: 6322572373986632718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobbegirandofrente_3
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 15
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97097b8227966c90800000000000000
+      internalID: -7176882781543659622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobbegirandofrente_4
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 31
+        width: 180
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9f47aa6992bbd10800000000000000
+      internalID: 2142351774826428890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobbegirandofrente_5
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 31
+        width: 180
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281dddda56fc40bc0800000000000000
+      internalID: -3817698548487695998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobbegirandofrente_6
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 3
+        width: 180
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81478870d10cb69b0800000000000000
+      internalID: -5085760123271875560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobbegirandofrente_7
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 3
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4715ef7eb2dd2020800000000000000
+      internalID: 2318741098797012813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobbegirandofrente_8
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 5
+        width: 180
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f85aa5f852b0240800000000000000
+      internalID: 4758938728878411543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobbegirandofrente_9
+      rect:
+        serializedVersion: 2
+        x: 2339
+        y: 0
+        width: 229
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efcecaf522e60faf0800000000000000
+      internalID: -364670475903898370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobbegirandofrente_10
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 19
+        width: 205
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04a70227abafcd50800000000000000
+      internalID: 6759810300025218059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bobbegirandofrente_11
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 20
+        width: 195
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca468520aed45250800000000000000
+      internalID: 5932611388559477443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bobbegirandofrente_0: 3563795691619467780
+      bobbegirandofrente_1: -2199584906835783877
+      bobbegirandofrente_10: 6759810300025218059
+      bobbegirandofrente_11: 5932611388559477443
+      bobbegirandofrente_2: 6322572373986632718
+      bobbegirandofrente_3: -7176882781543659622
+      bobbegirandofrente_4: 2142351774826428890
+      bobbegirandofrente_5: -3817698548487695998
+      bobbegirandofrente_6: -5085760123271875560
+      bobbegirandofrente_7: 2318741098797012813
+      bobbegirandofrente_8: 4758938728878411543
+      bobbegirandofrente_9: -364670475903898370
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
