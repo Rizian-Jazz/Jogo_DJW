@@ -12,7 +12,6 @@ public class Bobbe : MonoBehaviour
     public Transform[] spawnPoints;
 
     private Vector2 targetSpot;
-    private bool foundSpot = false;
 
     private enum State {Start, LeavingScreen, FindingSpot, ReturnToScreen, Charging, Stunned, AttackVertical, AttackSides, Dying}
     private State currentState;
@@ -21,7 +20,7 @@ public class Bobbe : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = player.transform;
 
         ChangeState(State.Start);
     }
@@ -42,8 +41,6 @@ public class Bobbe : MonoBehaviour
             case State.AttackSides: StartCoroutine(FaseAtackSides()); break;
             case State.Dying: StartCoroutine(FaseDying()); break;
         }
-        
-
     }
 
     IEnumerator FaseStart()
@@ -55,6 +52,7 @@ public class Bobbe : MonoBehaviour
 
     IEnumerator FaseLeavingScreen()
     {
+        yield return new WaitForSeconds(0.4f);
         anim.Play("LeavingScreen");       
         int randomIndex = Random.Range(0, spawnPoints.Length);
         Vector2 exitPoint = spawnPoints[randomIndex].position;
@@ -84,9 +82,7 @@ public class Bobbe : MonoBehaviour
         }
         while (Vector2.Distance(CurrentSpot, targetSpot) < 0.5f);
 
-        yield return new WaitForSeconds(0.7f);
-
-        foundSpot = true;
+        yield return new WaitForSeconds(1.7f);
         anim.SetBool("foundSpot", true);
 
         ChangeState(State.ReturnToScreen);
@@ -99,7 +95,7 @@ public class Bobbe : MonoBehaviour
         GetComponent<SpriteRenderer>().enabled = true;
         anim.Play("ReturnToScreen");
 
-        yield return new WaitForSeconds(0.5f); 
+        yield return new WaitForSeconds(1f); 
 
         if(player != null)
         {
@@ -115,14 +111,14 @@ public class Bobbe : MonoBehaviour
     }
     IEnumerator FaseAtackVertical()
     {
-        anim.Play("Attack player (up n down) ");
+        anim.Play("Attack player (up n down)");
         yield return new WaitForSeconds(1f);
         ChangeState(State.Charging);
     }
 
     IEnumerator FaseAtackSides()
     {
-        anim.Play("Attack player from the sides ");
+        anim.Play("Attack player from the sides");
         yield return new WaitForSeconds(1f);
         ChangeState(State.Charging);
     }
@@ -193,9 +189,3 @@ public class Bobbe : MonoBehaviour
         }
     }
 }
-    
-    
-
-
-  
-

@@ -11,7 +11,15 @@ public class interpolateMovement : MonoBehaviour
     public Animator anim;
     public bool isFlipped;
 
-
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        if(anim == null)
+        {
+            Debug.LogError("Animator component not found on the player object.");
+        }
+    }
 
     void FixedUpdate()
     {
